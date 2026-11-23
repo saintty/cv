@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"],
   },
 
-  icons: { icon: "/csv/favicon.ico", apple: "/csv/apple-icon.png" },
+  icons: { icon: "/cv/favicon.ico", apple: "/cv/apple-icon.png" },
 };
 
 export const RootLayout = ({ children }: DefaultLayoutProps) => (
