@@ -37,7 +37,7 @@ const jsonLd = {
         "Frontend-разработчик с коммерческим опытом разработки интерфейсов на React, Next.js и TypeScript.",
 
       url: siteUrl,
-      image: `${siteUrl}/images/avatar.webp`,
+      image: `${siteUrl}/og-image.jpg`,
 
       knowsAbout: [
         "JavaScript",

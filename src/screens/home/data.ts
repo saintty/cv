@@ -23,14 +23,14 @@ export const data = {
       ],
       stages: [
         {
-          period: "Декабрь 2022 - Ноябрь 2023",
+          period: "Декабрь 2022 - Июнь 2023",
           position: "Junior Frontend Developer",
           type: "Стажировка",
           description:
             "Начал профессиональный путь в frontend-разработке под руководством опытных коллег. Освоил основы веб-технологий и применил полученные знания при создании полноценного приложения с интеграцией API.",
         },
         {
-          period: "Ноябрь 2023 - Ноябрь 2026",
+          period: "Июнь 2023 - Ноябрь 2026",
           position: "Middle Frontend Developer",
           type: "Коммерческий опыт",
           description:
@@ -99,11 +99,18 @@ export const data = {
     },
     {
       title: "Фреймворки и библиотеки",
-      skills: ["React", "Next.js", "Redux Toolkit", "Context API", "Next-Intl"],
+      skills: [
+        "React",
+        "Next.js",
+        "Redux Toolkit",
+        "Context API",
+        "Next-Intl",
+        "HeroUI",
+      ],
     },
     {
       title: "Работа с данными",
-      skills: ["TanStack Query", "REST API", "HTTP"],
+      skills: ["TanStack Query", "REST API", "HTTP", "GraphQL"],
     },
     {
       title: "Формы и валидация",
@@ -118,10 +125,8 @@ export const data = {
       skills: ["Vitest", "Unit Testing"],
     },
     {
-      title: "Инструменты и инфраструктура",
+      title: "Инструменты",
       skills: [
-        "Git",
-        "Ansible",
         "Oxlint",
         "Prettier",
         "Stylelint",
@@ -129,7 +134,12 @@ export const data = {
         "Core Web Vitals",
         "WAI-ARIA",
         "Imgproxy",
+        "Storybook",
       ],
+    },
+    {
+      title: "Инфраструктура",
+      skills: ["Git", "Gitlab Actions", "Ansible", "Docker"],
     },
   ],
   approaches: [
@@ -180,21 +190,22 @@ export const data = {
   ],
   about: {
     descriptions: [
-      `Frontend-разработчик с 4 годами коммерческого опыта.
-    Основной стек - React, TypeScript и Next.js.
-    Специализируюсь на разработке функциональных веб-приложений
-    с насыщенной бизнес-логикой и нетривиальными пользовательскими сценариями.`,
+      `Frontend-разработчик с 4 годами коммерческого опыта. Специализируюсь на разработке
+      продуктовых интерфейсов на React и Next.js, включая e-commerce, административные панели
+      и образовательные платформы. Работаю с TypeScript, реализую сложные пользовательские
+      сценарии, многошаговые формы и интеграции со сторонними сервисами. Имею опыт работы
+      как с современными frontend-решениями, так и с legacy-проектами на React.`,
 
-      `Работал над образовательной платформой, несколькими e-commerce
-    и внутренней корпоративной системой. Помимо разработки,
-    участвую в технических обсуждениях, помогаю коллегам
-    и улучшаю процессы внутри команды.`,
+      `Помимо разработки функциональности, занимаюсь развитием frontend-инфраструктуры и
+      инженерных процессов. Стандартизировал и задокументировал подходы к организации
+      новых проектов, оптимизировал процессы CI/CD в 4 раза и внедрил автоматизированные
+      проверки качества frontend-приложения.`,
     ],
     cards: [
-      { title: "4 года", description: "Коммерческой разработки" },
+      { title: "~4 года", description: "Коммерческой разработки" },
       { title: "3 проекта", description: "Запущенных в production" },
-      { title: "50+", description: "Языков локализации платформы" },
-      { title: "~3x", description: "Ускорение процесса релиза" },
+      { title: "90+", description: "баллов Lighthouse" },
+      { title: "~4x", description: "Ускорение процесса релиза" },
     ],
   },
 };
